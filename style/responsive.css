@@ -1,0 +1,21 @@
+@media screen and (max-width: 700px) {
+  header .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .butao {
+    margin-top: 5px;
+    width: 200px;
+  }
+}
+@media screen and (min-width: 950px) {
+  .filme-principal {
+    height: 750px;
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 33%;
+    min-width: 33%;
+    background-position: center;
+    background-size: cover;
+  }
+}
